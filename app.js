@@ -7,7 +7,7 @@ const index = require('./routes/index.route');
 const admin = require('./routes/admin.route');
 const app = express();
 
-
+ 
 app.set('view engine', 'ejs');
 
 app.use('/js', express.static(__dirname + '/node_modules/bootstrap/dist/js')); // redirect bootstrap JS
